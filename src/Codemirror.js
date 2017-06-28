@@ -78,7 +78,6 @@ const CodeMirror = createReactClass({
         this.codeMirror.setValue(nextProps.value);
         this.codeMirror.scrollTo(prevScrollPosition.left, prevScrollPosition.top);
       } else {
-        console.log(`Setting value to ${nextProps.value}`);
         this.codeMirror.setValue(nextProps.value);
         this.codeMirror.focus();
       }
